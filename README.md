@@ -17,7 +17,7 @@ du HTML vous aurez besoin des balises suivantes:
 * `<ul> </ul>` pour faire une liste non ordonnée  
   * `<li> </li>` pour encadrer les éléments d'une liste  
 * `<img src="?">` ajoute une image à votre page et ne nécessite pas un marqueur de fin  
-* `<a href="http://www.mon-site.fr" target="_blank">Nouvel onglet</a>` indique qu'en cliquant sur "Nouvel onglet", la page "http://www.mon-site.fr" s'ouvre dans un nouvel onglet.  
+* `<a href="http://www.mon-site.fr" target="_blank">Nouvel onglet</a>` indique qu'en cliquant sur "Nouvel onglet", la page `http://www.mon-site.fr` s'ouvre dans un nouvel onglet.  
 
 du CSS vous aurez besoin du code suivant:  
  
