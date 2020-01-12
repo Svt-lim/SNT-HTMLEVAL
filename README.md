@@ -1,10 +1,11 @@
 # SNT-HTMLEVAL  
 Cette séance est évaluée. Votre objectif est de construire une page web selon le cahier des charges suivant:  
-* la page doit présenter une selection de billets d'actualité [scientifique](https://www.lemonde.fr/passeurdesciences/) ou [généraliste](https://www.lemonde.fr/actualite-en-continu/) sous la forme d'une liste   
+* la page doit présenter une selection de 5 billets d'actualité [scientifique](https://www.lemonde.fr/passeurdesciences/) ou [généraliste](https://www.lemonde.fr/actualite-en-continu/) sous la forme d'une liste.     
 * vous présenterez un résumé du billet de votre choix.  
   * votre résumé comportera un titre, une image, un résumé rapide du sujet du billet.  
 * votre page comportera un titre et utilisera du CSS pour être stylisée.  
-* vous aurez relevé tous les défis.  
+* votre liste d'article comportera un lien html vers la page du billet  
+* vous aurez relevé les 2 défis.  
 -------------------------------------  
 # Pré-requis : ouvrez ce [trinket](https://trinket.io/embed/html/ef4c882ae6#.Xhs5YyNCeUk) pour pouvoir programmer.  
 -------------------------------------  
@@ -16,6 +17,7 @@ du HTML vous aurez besoin des balises suivantes:
 * `<ul> </ul>` pour faire une liste non ordonnée  
   * `<li> </li>` pour encadrer les éléments d'une liste  
 * `<img src="?">` ajoute une image à votre page et ne nécessite pas un marqueur de fin  
+* `<a href="http://www.mon-site.fr" target="_blank">Nouvel onglet</a>` indique qu'en cliquant sur "Nouvel onglet", la page "http://www.mon-site.fr" s'ouvre dans un nouvel onglet.  
 
 du CSS vous aurez besoin du code suivant:  
  
@@ -36,8 +38,13 @@ ul {
   list-style-type: square;  
  }  
 ce code permet de choisir le type de puce de vos listes.  
+# Défis :  
+* changez de méthode pour la liste. Cherchez quelle balise utiliser pour faire une liste ordonnée.  
+* 
 # quelques exemples pour vous guider:  
 ![image](https://github.com/Svt-lim/SNT-HTMLEVAL/blob/master/imageseval/colback.png)  
 ![image](https://github.com/Svt-lim/SNT-HTMLEVAL/blob/master/imageseval/debut%20code.png)  
-![image](https://github.com/Svt-lim/SNT-HTMLEVAL/blob/master/imageseval/plus%20de%20parametres.png)
+![image](https://github.com/Svt-lim/SNT-HTMLEVAL/blob/master/imageseval/plus%20de%20parametres.png)  
+
+
 
